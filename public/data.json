@@ -1,0 +1,20 @@
+{
+  "title": "Amstel Nest - An Urban Retreat",
+  "location": "Room in Amsterdam, Netherlands",
+  "description": "Cozy space near central Amsterdam.",
+  "amenities": ["WiFi", "Heating", "Microwave", "Free parking"],
+  "reviews": [
+    "Great place, very clean!",
+    "Lovely location, would come back.",
+    "Host was friendly and helpful.",
+    "Good amenities, highly recommend.",
+    "Very close to public transport.",
+    "Affordable and clean.",
+    "Spacious room with a view.",
+    "Quiet and relaxing.",
+    "Amazing interior design.",
+    "Best experience ever!"
+  ],
+  "cancellationPolicy": "Free cancellation until January 5th.",
+  "groundRules": "Follow the house rules. Treat the host's home like your own."
+}

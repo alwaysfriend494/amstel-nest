@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div className="font-sans">
+    <div className="font-">
       <Navbar />
       <main className="max-w-6xl mx-auto px-4 lg:px-0">
         <Gallery />

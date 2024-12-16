@@ -2,7 +2,7 @@ import React from "react";
 
 const PricingCard = () => {
     return (
-        <div className="max-w-sm p-6 bg-white rounded-lg shadow-md border">
+        <div className="sticky top-0 max-w-sm p-6 bg-white rounded-lg shadow-md border">
             <h2 className="text-lg font-semibold mb-4">Add dates for prices</h2>
 
             <div className="border rounded-lg divide-y text-sm">

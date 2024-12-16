@@ -1,32 +1,47 @@
-// src/components/PricingCard.jsx
 import React from "react";
 
 const PricingCard = () => {
     return (
-        <aside className="bg-white border p-4 rounded-lg shadow-md mt-6 lg:mt-0">
-            <h2 className="text-lg font-semibold mb-4">€160 / night</h2>
-            <form className="space-y-4">
-                <label className="block">
-                    <span className="block text-gray-700">Check-in</span>
-                    <input type="date" className="w-full border p-2 rounded-md" />
-                </label>
-                <label className="block">
-                    <span className="block text-gray-700">Check-out</span>
-                    <input type="date" className="w-full border p-2 rounded-md" />
-                </label>
-                <label className="block">
-                    <span className="block text-gray-700">Guests</span>
-                    <select className="w-full border p-2 rounded-md">
-                        <option>1 Guest</option>
-                        <option>2 Guests</option>
-                        <option>3 Guests</option>
-                    </select>
-                </label>
-                <button className="w-full bg-pink-500 text-white py-2 rounded-md">
-                    Reserve
+        <div className="max-w-sm p-6 bg-white rounded-lg shadow-md border">
+            <h2 className="text-lg font-semibold mb-4">Add dates for prices</h2>
+
+            <div className="border rounded-lg divide-y text-sm">
+                <div className="grid grid-cols-2 divide-x">
+                    <div className="p-3">
+                        <p className="text-xs font-bold text-gray-600 uppercase mb-1">
+                            Check-in
+                        </p>
+                        <p className="text-gray-700">2/2/2025</p>
+                    </div>
+                    <div className="p-3">
+                        <p className="text-xs font-bold text-gray-600 uppercase mb-1">
+                            Checkout
+                        </p>
+                        <p className="text-gray-400">Add date</p>
+                    </div>
+                </div>
+
+                <div className="p-3 relative">
+                    <p className="text-xs font-bold text-gray-600 uppercase mb-1">
+                        Guests
+                    </p>
+                    <div className="flex items-center justify-between">
+                        <p className="text-gray-700">2 guests</p>
+                        <span className="text-gray-700">▼</span>
+                    </div>
+                </div>
+            </div>
+
+            <button className="w-full mt-4 py-3 text-white bg-gradient-to-r from-pink-500 to-red-500 font-semibold rounded-md hover:from-pink-600 hover:to-red-600">
+                Check availability
+            </button>
+
+            <div className="mt-4 text-center">
+                <button className="text-sm text-gray-500 hover:underline">
+                    🏳 Report this listing
                 </button>
-            </form>
-        </aside>
+            </div>
+        </div>
     );
 };
 

@@ -26,40 +26,72 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <div class="flex justify-between w-full h-full">
-        <div class="col-span-2 row-span-2">
+      {/* <div class="flex justify-between w-full h-full">
+        <div className="w-[50%] h-full">
+          <img src={image_1} alt="" />
+        </div>
+        <div className="w-[25%] h-full flex flex-col justify-between">
+          <div className="w-full h-full">
+            <img src={image_2} alt="" />
+          </div>
+          <div className="w-full h-full">
+            <img src={image_2} alt="" />
+          </div>
+        </div>
+        <div className="w-[25%] h-full flex flex-col justify-between">
+          <div className="w-full h-full">
+            <img src={image_2} alt="" />
+          </div>
+          <div className="w-full h-full">
+            <img src={image_2} alt="" />
+          </div>
+        </div>
+      </div> */}
+      <div className="flex justify-between gap-2 p-4 max-w-6xl mx-auto">
+        <div className="w-[50%] h-full">
           <img
             src={image_1}
-            alt="Room_image_1"
-            class="rounded-md object-cover w-full h-full"
+            alt="Large"
+            className="w-full h-full object-cover rounded-tl-md rounded-bl-md"
           />
         </div>
 
-        <div className="flex">
-          <div class="grid grid-cols-2 gap-2 h-[50%]">
-            <img
-              src={image_2}
-              alt="Room_image_2"
-              class="rounded-md object-cover w-full h-full"
-            />
-            <img
-              src={image_3}
-              alt="Room_image_3"
-              class="rounded-md object-cover w-full h-full"
-            />
-          </div>
+        <div className="w-[50%] h-full flex gap-2">
+          <div className="w-[50%] h-full flex flex-col gap-1">
+            <div className="">
+              <img
+                src={image_2}
+                alt="Small 1"
+                className="w-full h-full object-cover"
+              />
+            </div>
 
-          <div class="col-span-2 grid grid-cols-2 gap-2 h-[50%]">
-            <img
-              src={image_4}
-              alt="Room_image_4"
-              class="rounded-md object-cover w-full h-full"
-            />
-            <img
-              src={image_5}
-              alt="Room_image_5"
-              class="rounded-md object-cover w-full h-full"
-            />
+            <div className="">
+              <img
+                src={image_3}
+                alt="Small 2"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+          <div className="w-[50%] h-full flex flex-col gap-1">
+            <div className="">
+              <img
+                src={image_4}
+                alt="Small 3"
+                className="w-full h-full object-cover rounded-tr-md"
+              />
+            </div>
+            <div className="h-[182px] relative">
+              <img
+                src={image_5}
+                alt="Small 4"
+                className="w-full h-full object-cover rounded-br-md"
+              />
+              <button className="absolute bottom-4 right-4 bg-white text-gray-800 px-4 py-2 rounded shadow hover:bg-gray-200">
+                Show all photos
+              </button>
+            </div>
           </div>
         </div>
       </div>

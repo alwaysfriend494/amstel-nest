@@ -26,41 +26,44 @@ const Gallery = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-2">
-        <div>
+      <div class="flex justify-between w-full h-full">
+        <div class="col-span-2 row-span-2">
           <img
             src={image_1}
-            alt="Room image"
-            className="rounded-md object-cover h-full"
+            alt="Room_image_1"
+            class="rounded-md object-cover w-full h-full"
           />
         </div>
+
         <div className="flex">
-          <div>
+          <div class="grid grid-cols-2 gap-2 h-[50%]">
             <img
               src={image_2}
-              alt="Room image"
-              className="rounded-md object-cover h-[50%]"
+              alt="Room_image_2"
+              class="rounded-md object-cover w-full h-full"
             />
             <img
               src={image_3}
-              alt="Room image"
-              className="rounded-md object-cover h-[50%]"
+              alt="Room_image_3"
+              class="rounded-md object-cover w-full h-full"
             />
           </div>
-          <div>
+
+          <div class="col-span-2 grid grid-cols-2 gap-2 h-[50%]">
             <img
               src={image_4}
-              alt="Room image"
-              className="rounded-md object-cover h-[50%]"
+              alt="Room_image_4"
+              class="rounded-md object-cover w-full h-full"
             />
             <img
               src={image_5}
-              alt="Room image"
-              className="rounded-md object-cover h-[50%] w-full"
+              alt="Room_image_5"
+              class="rounded-md object-cover w-full h-full"
             />
           </div>
         </div>
       </div>
+
     </section>
   );
 };

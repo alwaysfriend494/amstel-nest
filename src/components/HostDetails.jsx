@@ -1,4 +1,3 @@
-// src/components/HostDetails.jsx
 import React from "react";
 import ProfileCard from '../Card/ProfileCard';
 import Project from '../svg/Project';

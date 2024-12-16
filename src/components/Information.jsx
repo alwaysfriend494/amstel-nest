@@ -1,6 +1,5 @@
 import React from "react";
 import { FaStar } from "react-icons/fa6";
-import { PiMedalMilitary } from "react-icons/pi";
 import Family from "../assets/images/family.avif";
 
 const Information = () => {

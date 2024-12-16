@@ -3,7 +3,7 @@ import { FaAngleRight } from "react-icons/fa6";
 
 const AboutPlace = () => {
     return (
-        <section className="mt-6">
+        <section className="mt-6 border-b-2">
             <h2 className="text-xl font-bold">About this place</h2>
             <p className="text-gray-700 mt-4">
                 Amstel Nest is a stylish guest room for those who are looking for a quality accommodation.  </p>
@@ -13,7 +13,7 @@ const AboutPlace = () => {
             <p className="text-gray-700 mt-4">
                 ...
             </p>
-            <div className="mt-4 flex justify-between items-center w-[100px]">
+            <div className="mt-4 mb-12 flex justify-between items-center w-[100px]">
                 <p className="text-gray-700 underline">
                     Show more 
                 </p>
